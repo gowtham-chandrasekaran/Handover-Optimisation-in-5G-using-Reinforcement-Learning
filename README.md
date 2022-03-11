@@ -4,6 +4,10 @@ In this project, we are trying to optimize the number of handovers in a dense 5G
 We have utilized the Q-learning of RL to create a model. 
 We have performed 5000 iterations for the agent to learn all the available states and antennas.
 
+# Purpose
+
+The purpose of the project is to build an agent that will understand the placement of several 5G antennas, and build an optimum path to take from source to destination to avoid the number of handovers on the go. We created a gridworld environment to train the agent.
+
 # Environment
 
 We have created a 3 x 6 gridworld environment with antennas on different coordinates and the agent is placed in one position.
